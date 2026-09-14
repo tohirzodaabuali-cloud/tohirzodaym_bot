@@ -11,7 +11,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Ба зудӣ хизматрасониҳои бештар фаъол мешаванд!"
     )
 
-app = ApplicationBuilder().token(TOKEN).build()
+app = ApplicationBuilder().token(8881388960:AAEB8J-KezgAhSwuDGFJWqBFA9IhuVvPUJc).build()
 
 app.add_handler(CommandHandler("start", start))
 
