@@ -107,7 +107,7 @@ async def profile_picture(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     if BOT_TOKEN == "8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs"
-        print(8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs)
+        print("8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs")
         return
 
     app = ApplicationBuilder().token("8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs").build()
