@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 # ====== ТАНЗИМОТ ======
-BOT_TOKEN = 8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs
+BOT_TOKEN = "8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs"
 DOWNLOAD_DIR = "downloads"
 
 logging.basicConfig(
@@ -106,11 +106,11 @@ async def profile_picture(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    if BOT_TOKEN ==8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs
+    if BOT_TOKEN == "8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs"
         print(8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs)
         return
 
-    app = ApplicationBuilder().token(8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs).build()
+    app = ApplicationBuilder().token("8299748944:AAEZuE2hdHzjSp_byq4desB5jNPbInMIcSs").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("pfp", profile_picture))
