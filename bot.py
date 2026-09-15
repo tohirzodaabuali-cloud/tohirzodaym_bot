@@ -12,7 +12,7 @@ from telegram.ext import (
 )
 
 # ====== ТАНЗИМОТ ======
-BOT_TOKEN = "8299748944:AAFfCx183YddNCGV3MFQv6OkJSWdV1xqzyM"
+BOT_TOKEN = "8916625204:AAGrGy2kor7p96gIKKxZ29XcBq4cYtkBZ_0"
 DOWNLOAD_DIR = "downloads"
 
 logging.basicConfig(
